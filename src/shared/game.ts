@@ -290,8 +290,8 @@ export class Game {
       i.yaw += Math.max(-0.07, Math.min(0.07, turn))
       i.pitch =
         Math.atan2(q.y - p.y - 0.18, t.d) +
-        Math.sin(this.time * 3 + a.target) * 0.025
-      i.fire = Math.abs(turn) < 0.08 && this.time - a.joined > 1 && Math.sin(this.time * 3 + a.target) > -0.35
+        Math.sin(this.time * 3 + a.target) * 0.018
+      i.fire = Math.abs(turn) < 0.05 && this.time - a.joined > 1.4 && Math.sin(this.time * 3 + a.target) > -0.2
       i.forward = t.d > 12 ? 1 : 0
       i.side =
         Math.sin(this.time * 0.6 + a.target) > 0.5

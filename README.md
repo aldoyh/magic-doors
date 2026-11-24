@@ -31,7 +31,7 @@ browser with pointer capture is recommended for unrestricted turning.
 - Sandstone walls with pointed arcades, mashrabiya lattice screens, brass
   lanterns, a turquoise-domed pavilion, tiled water basins, hand-knotted rugs,
   palms, a minaret and a skyline of flat-roofed houses under a dusk sky.
-- Five opponents — نزار، سهيل، ليلى، طارق، ياسمين — in thobe, bisht and headwear
+- Five opponents — نايف | حسن | مريم | عيسى | شيخة
   (keffiyeh with agal, turban, or veil), each with a distinct robe, cloak and sash
   palette.
 - Weapons are the بندق (matchlock rifle, 30 rounds) and the خنجر (curved dagger).

@@ -18,7 +18,7 @@ export class SoloSession {
   private sequence = 0
   constructor(name: string, storage: Storage) {
     this.game.add('you', name)
-    for (const name of ['نزار', 'سهيل', 'ليلى', 'طارق', 'ياسمين'])
+    for (const name of ['نايف', 'حسن', 'مريم', 'عيسى', 'شيخة'])
       this.game.add(name.toLowerCase(), name, true)
     this.game.onResult = (_id, earned) => {
       const stats = readStats(storage)

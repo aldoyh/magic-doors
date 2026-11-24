@@ -138,7 +138,7 @@ export function validInput(v: unknown): v is Input {
 }
 export function spray(shot: number, aim: boolean) {
   return {
-    pitch: Math.min(shot, 10) * 0.0045 * (aim ? 0.7 : 1),
-    yaw: Math.sin(shot * 1.7) * Math.min(shot, 9) * 0.0019 * (aim ? 0.7 : 1),
+    pitch: Math.min(shot, 10) * 0.0032 * (aim ? 0.6 : 1),
+    yaw: Math.sin(shot * 1.7) * Math.min(shot, 9) * 0.0014 * (aim ? 0.6 : 1),
   }
 }
